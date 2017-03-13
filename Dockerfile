@@ -1,7 +1,7 @@
 FROM registry.liskl.com/tstllc/alpine-base:latest
 
-# DevOps Team
-MAINTAINER Loren Lisk <loren.lisk@tstllc.net>
+# Dev-Ops Team
+MAINTAINER dl_team_devops@tstllc.net
 
 ARG PUREFTPD_VERSION=1.0.43
 
