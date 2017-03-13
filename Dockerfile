@@ -1,4 +1,4 @@
-FROM tstllc-base
+FROM registry.liskl.com/tstllc/alpine-base:latest
 
 # DevOps Team
 MAINTAINER Loren Lisk <loren.lisk@tstllc.net>
