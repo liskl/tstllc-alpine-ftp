@@ -1,12 +1,12 @@
 pipeline:
   docker:
     image: plugins/docker
-    repo: registry.liskl.com/tstllc/alpine-ftp
+    repo: registry.tstllc.net/llisk/alpine-ftp
     force_tag: true
 
 publish:
   docker:
-    repo: registry.liskl.com/tstllc/alpine-ftp
+    repo: registry.tstllc.net/llisk/alpine-ftp
     tag:
       - latest
     when:
@@ -15,7 +15,7 @@ publish:
 
 publish:
   docker:
-    repo: registry.liskl.com/tstllc/alpine-ftp
+    repo: registry.tstllc.net/llisk/alpine-ftp
     tag:
       - ${DRONE_BRANCH}-latest
       - ${DRONE_BRANCH}.build-${DRONE_BUILD_NUMBER}
