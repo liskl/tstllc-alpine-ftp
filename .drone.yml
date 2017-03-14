@@ -2,6 +2,10 @@ pipeline:
   docker:
     image: plugins/docker
     repo: registry.tstllc.net/llisk/alpine-ftp
+    username: ${REPO_USERNAME}
+    password: ${REPO_PASSWORD}
+    email: ${REPO_EMAILADDR}
+    registry: registry.tstllc.net
     force_tag: true
 
 publish:
